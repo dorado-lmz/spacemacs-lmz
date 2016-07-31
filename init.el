@@ -12,6 +12,7 @@
       org
       spell-checking
       syntax-checking
+      zilongshanren
      )
   )
 )
@@ -30,7 +31,8 @@
    dotspacemacs-line-numbers t
    dotspacemacs-maximized-at-startup t
    dotspacemacs-additional-packages '(racket-mode)
-   dotspacemacs-editing-style 'vim
+   dotspacemacs-excluded-packages '(vi-tilde-fringe)
+   dotspacemacs-editing-style 'hybrid
    dotspacemacs-auto-save-file-location 'cache
    dotspacemacs-highlight-delimiters 'all
    dotspacemacs-startup-lists '((recents . 5)
