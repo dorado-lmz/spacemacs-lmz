@@ -10,9 +10,9 @@
 ;;; License: GPLv3
 
 (configuration-layer/declare-used-layers '(
-                                    ;;  zilongshanren-misc
-                                    ;; zilongshanren-programming
+                                      zilongshanren-misc
+                                      zilongshanren-programming
                                       zilongshanren-ui
-                                    ;;  zilongshanren-org
-                                    ;;  zilongshanren-better-defaults
+                                      zilongshanren-org
+                                      zilongshanren-better-defaults
                                       ))
